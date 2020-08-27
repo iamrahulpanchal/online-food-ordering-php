@@ -1,0 +1,229 @@
+.bg-img{
+        height: 100vh !important;
+        display: flex;
+        align-items: center;
+}
+
+/* .bg-img:after {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    background:rgba(0,0,0,0.3);
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+} */
+
+
+
+.logo-text{
+    margin-bottom: 0 !important;
+    font-size: 2rem;
+    color: #E02C2B;
+}
+
+#faq li.active a{
+    color: #E02C2B !important;
+    font-weight: 500;
+}
+
+.cat_li{
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 !important;
+}
+
+#cat_arr_cb{
+    width: 15px;
+    margin-right: 10px;
+    height: 35px;
+}
+
+.product-price-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.product-price-wrapper p{
+    margin-bottom: 0;
+}
+
+.product-price-wrapper input[type=radio]{
+    width: 15px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.product-price-wrapper .dd_price{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.login-toggle-btn{
+    display: flex;
+    align-items: center;
+}
+
+.login-toggle-btn a{
+    margin-left: auto;
+}
+
+#email_error{
+    color: red;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#email_verify{
+    color: green;
+}
+
+#u_email_reg{
+    margin-bottom: 0 !important;
+}
+
+.verify_container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#u_email, #u_password{
+    margin-bottom: 10px;
+}
+
+#user_not_exist, #password_error, #email_not_verify{
+    color: red;
+}
+
+.login-text-content p{
+    margin-bottom: 0;
+}
+
+.login-text-content .logout-text{
+    color: red;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.account-curr-lang-wrap ul li:last-child ul{
+    left: 0px !important;
+}
+
+.forgot-row{
+    display: flex;
+    justify-content: center;
+}
+
+.forgot-row form{
+    width: 30%;
+}
+
+.dish_text{
+    margin-left: 5px;
+}
+
+.type_filter{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.type_filter input[type=radio]{
+    margin-right: 2px;
+    width: 15px;
+    height: 22px;
+}
+
+.qty-drop{
+    height: 35px;
+    width: 50%;
+    margin-top: 10px;
+    font-size: .9rem;
+}
+
+.qty-cart{
+    display: flex;
+}
+
+.qty-cart .fa-cart-plus{
+    width: max-content;
+    font-size: 24px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close-btn{
+    margin-top: 2px !important;
+    font-size: 9px !important;
+}
+
+.checkout-login-btn{
+    margin-top: 25px;
+}
+
+.checkout_login{
+    background-color: #fff;
+    color: #000;
+    height: 44px;
+    border: 1px solid gray;
+    width: 85px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+#pay_status{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pay_status_success{
+    color: green !important;
+}
+
+.pay_status_pending{
+    color: red !important;
+}
+
+.cc_button{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.coupon_error{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: red;
+    margin-left: 10px;
+}
+
+.coupon_price_box, .final_price_box{
+    display: none;
+}
+
+.website_close{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.rating-drop{
+    font-size: .9rem;
+    margin-right: 15px;
+}

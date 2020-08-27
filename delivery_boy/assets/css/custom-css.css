@@ -1,0 +1,64 @@
+.error_msg{
+        color: red;
+        margin-bottom: 1rem;
+}
+
+.delete_red{
+        background-color: red !important;
+}
+
+.badge{
+        cursor: pointer;
+}
+
+.manage-text{
+        margin-bottom: 2.5rem;
+}
+
+#cc_type{
+        width: 100%;
+        font-size: .875rem;
+        margin-top: 6px;
+        padding: 5px;
+}
+
+#d_c_id{
+        color: black !important;
+}
+
+.remove_attr_btn{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+}
+
+.banner_img{
+    width: 70px !important;
+    height: 39px !important;
+    border-radius: 0 !important;
+}
+
+#pay_status{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pay_status_success{
+    color: green;
+}
+
+.pay_status_pending{
+    color: red;
+}
+
+.db_header{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.main-panel{
+    width: 100% !important;
+}
