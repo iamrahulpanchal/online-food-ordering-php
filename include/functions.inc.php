@@ -50,7 +50,7 @@ function getOrderById($order_id){
     while($row = mysqli_fetch_assoc($res)){
         $data[] = $row;
     }
-     return $data;
+    return $data;
 }
 
 function getDeliveryBoy($db_id){
